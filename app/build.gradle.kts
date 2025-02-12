@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("androidx.health.connect:connect-client:1.0.0-beta04")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
 }
