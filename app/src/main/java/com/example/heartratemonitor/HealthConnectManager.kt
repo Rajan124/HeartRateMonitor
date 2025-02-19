@@ -145,12 +145,12 @@ fun HealthConnectManager(
                                 modifier = Modifier.padding(16.dp)
                             ) {
                                 Text(
-                                    text = "Date/Time: ${reading.second}",
+                                    text = "Heart Rate: ${reading.second}",
                                     fontSize = 16.sp,
                                     color = Color.White
                                 )
                                 Text(
-                                    text = "Heart Rate: ${reading.first} bpm",
+                                    text = "Date/Time: ${reading.first}",
                                     fontSize = 16.sp,
                                     fontWeight = FontWeight.Bold,
                                     color = Color.White
